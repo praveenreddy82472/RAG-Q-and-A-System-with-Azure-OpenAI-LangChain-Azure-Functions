@@ -22,9 +22,10 @@ flowchart TD
     B --> C[Azure OpenAI Embeddings]
     C --> D[Azure Cognitive Search Index]
     E[User Query] --> F[FastAPI / Azure Function Endpoint]
-    F --> G[Retriever (LangChain + Azure Search)]
+    F --> G[Retriever (LangChain and Azure Search)]
     G --> H[Azure OpenAI Chat Model]
     H --> I[Final Answer]
     D --> G
+
 ```
 
