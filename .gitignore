@@ -1,0 +1,24 @@
+# Remove duplicates
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.python_packages/
+
+# Azure Functions local settings
+local.settings.json
+.local.settings.json
+
+# IDEs
+.vscode/
+
+# Temporary/output files
+output/
+*.log
+
+# System files
+$RECYCLE.BIN/
+System Volume Information/

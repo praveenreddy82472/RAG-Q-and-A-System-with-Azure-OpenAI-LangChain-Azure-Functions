@@ -1,0 +1,16 @@
+Praveen Industries - Farming Services
+-------------------------------------
+We support modern and sustainable farming practices.
+
+FAQ:
+Q: What smart farming solutions do you provide?
+A: Smart irrigation, soil monitoring sensors, and drone-based crop surveillance.
+
+Q: Can you help predict crop yield?
+A: Yes, we use AI models to analyze soil, weather, and crop data for yield prediction.
+
+Q: Do you provide guidance for organic farming?
+A: Yes, we advise on organic fertilizers, pest control, and sustainable practices.
+
+Q: How can farmers optimize their supply chain?
+A: We provide analytics and software tools to improve logistics, storage, and delivery efficiency.

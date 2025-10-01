@@ -1,0 +1,104 @@
+📝 Cheat Sheet: RAG App Deployment (FastAPI + Azure Function)
+
+---
+
+1️⃣ FastAPI Local Deployment
+
+Folder structure:
+
+```
+Rag_Q&A_LangChain/
+│─ main.py
+│─ requirements.txt
+│─ .venv/
+```
+
+            Steps:
+
+            ```
+            .venv\Scripts\activate  # Windows
+            source .venv/bin/activate  # Linux/Mac
+
+            pip install -r requirements.txt
+            uvicorn main:app --reload --port 8000
+
+
+
+
+
+            curl -X POST http://127.0.0.1:8000/ask \
+                -H "Content-Type: application/json" \
+                -d '{"question":"What is in my knowledge base?"}'
+```
+
+---
+
+2️⃣ Azure Function Local Deployment
+
+Folder structure:
+
+```
+Rag_Q&A_LangChain/
+│─ function_app/        # __init__.py + function.json
+│─      host.json
+│─ local.settings.json
+│─ requirements.txt
+│─ .venv/
+```
+
+            Steps:
+
+            ```
+            cd function_app
+            .venv\Scripts\activate
+
+            # Ensure local.settings.json has all env variables
+            func start
+
+            curl -X POST http://localhost:7071/api/function_app \
+                -H "Content-Type: application/json" \
+                -d '{"question":"What is in my knowledge base?"}'
+            ```
+
+---
+
+3️⃣ Azure Function Cloud Deployment
+
+            Steps:
+
+            ```
+            az login
+            az account show
+            pip freeze > requirements.txt  # if not exists
+
+            # Ensure App Settings in Azure Portal has all env variables
+            func azure functionapp publish fun-rag-chat --python
+
+            curl -X POST https://fun-rag-chat.azurewebsites.net/api/function_app \
+                -H "Content-Type: application/json" \
+                -d '{"question":"What is in my knowledge base?"}'
+            ```
+
+---
+
+4️⃣ Tips & Best Practices
+
+* Local FastAPI → for dev & debugging.
+* Local Azure Function → test cloud-like environment.
+* Azure Function cloud → production-ready.
+* Cold Start → first request may be slow.
+* Minimal requirements.txt:
+
+```
+azure-functions
+langchain==0.1.0
+langchain-openai==0.0.6
+langchain-community
+azure-search-documents
+azure-identity
+requests
+numpy
+```
+
+* Use `logging.info()` to debug in Azure → Log Stream.
+* FastAPI + Azure Function → choose either for deployment.

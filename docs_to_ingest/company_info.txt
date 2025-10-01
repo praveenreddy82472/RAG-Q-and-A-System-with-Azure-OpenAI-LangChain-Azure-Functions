@@ -1,0 +1,22 @@
+Praveen Industries - Company Information
+----------------------------------------
+Praveen Industries is a multi-sector company involved in AI, Farming, Biotech, Steel, Pharma, and Construction.
+
+FAQ:
+Q: Who is the founder of Praveen Industries?
+A: Praveen Reddy Thumati is the founder of Praveen Industries.
+
+Q: Where is the company headquartered?
+A: The company is headquartered in Hyderabad, India.
+
+Q: When was Praveen Industries founded?
+A: It was founded in 2010.
+
+Q: What industries does Praveen Industries operate in?
+A: AI, Farming, Biotech, Steel, Pharma, and Construction.
+
+Q: How can I contact the company for business inquiries?
+A: Email info@praveenindustries.com or call +91-98765-43210.
+
+Q: Does Praveen Industries have international operations?
+A: Yes, the company has offices and clients across India, USA, and Europe.

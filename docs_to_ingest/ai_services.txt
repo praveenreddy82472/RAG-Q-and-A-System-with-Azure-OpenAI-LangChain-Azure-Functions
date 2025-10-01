@@ -1,0 +1,16 @@
+Praveen Industries - AI Services
+---------------------------------
+Praveen Industries provides cutting-edge AI solutions for businesses. 
+
+FAQ:
+Q: What AI services do you offer for retail businesses?
+A: We offer predictive analytics, customer behavior modeling, and automated chatbots to enhance customer experience.
+
+Q: Can you help integrate AI into our existing systems?
+A: Yes, our AI consulting team assists in system integration, model deployment, and staff training.
+
+Q: Do you provide computer vision solutions?
+A: Yes, for quality inspection, security monitoring, and image recognition applications.
+
+Q: How long does it take to implement AI solutions?
+A: Depending on complexity, projects usually take 2-6 months from analysis to deployment.
