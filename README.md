@@ -29,21 +29,22 @@ flowchart TD
 
 ```
 
+## LLM Development Approaches: LangChain vs Azure AI No-Code
 
-llm_development:
-  langchain:
-    approach: "Code-driven pipeline: data preprocessing → embeddings → vector storage → retrieval → LLM"
-    pros:
-      - "Maximum flexibility (custom prompts, embeddings, multi-step logic)"
-      - "Portable across Azure, GCP, AWS, or on-prem"
-    cons:
-      - "Slower development, requires coding and API management"
-      - "Manual scaling and CI/CD setup"
-  azure_ai_no_code:
-    approach: "No-code pipeline using Blob Storage, Cognitive Search, and OpenAI"
-    pros:
-      - "Fast development and deployment"
-      - "Built-in scaling, monitoring, and security"
+### With LangChain (Code-Driven)
+- **Approach:** Code pipeline → preprocessing → embeddings → vector storage → retrieval → LLM
+- **Pros:** Maximum flexibility (custom prompts, embeddings, multi-step logic), portable across Azure, GCP, AWS, or on-prem
+- **Cons:** Slower development, requires coding & API management, manual scaling and CI/CD
+
+### Without LangChain (Azure AI No-Code)
+- **Approach:** No-code pipeline using Blob Storage, Cognitive Search, and OpenAI
+- **Pros:** Fast development and deployment, built-in scaling & monitoring
+- **Cons:** Limited flexibility, partial vendor lock-in
+
+**Summary:**  
+- **LangChain:** Flexibility + Portability  
+- **Azure AI No-Code:** Speed + Simplicity
+
     cons:
       - "Limited flexibility and custom logic"
       - "Partial vendor lock-in"
