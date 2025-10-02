@@ -29,3 +29,25 @@ flowchart TD
 
 ```
 
+
+llm_development:
+  langchain:
+    approach: "Code-driven pipeline: data preprocessing → embeddings → vector storage → retrieval → LLM"
+    pros:
+      - "Maximum flexibility (custom prompts, embeddings, multi-step logic)"
+      - "Portable across Azure, GCP, AWS, or on-prem"
+    cons:
+      - "Slower development, requires coding and API management"
+      - "Manual scaling and CI/CD setup"
+  azure_ai_no_code:
+    approach: "No-code pipeline using Blob Storage, Cognitive Search, and OpenAI"
+    pros:
+      - "Fast development and deployment"
+      - "Built-in scaling, monitoring, and security"
+    cons:
+      - "Limited flexibility and custom logic"
+      - "Partial vendor lock-in"
+summary:
+  langchain: "Flexibility + Portability"
+  azure_ai_no_code: "Speed + Simplicity"
+
