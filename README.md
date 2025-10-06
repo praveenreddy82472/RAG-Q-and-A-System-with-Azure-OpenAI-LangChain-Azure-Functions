@@ -15,7 +15,7 @@ This simulates how modern AI-powered applications retrieve and reason over priva
 
 ## 🏗️ Architecture Overview
 
-![Architecture](https://github.com/praveenreddy82472/image-captioning-API-with-GCP/blob/main/image_cap_api.png)
+![Architecture](https://github.com/praveenreddy82472/RAG-Q-and-A-System-with-Azure-OpenAI-LangChain-Azure-Functions/blob/main/archite.drawio.png)
 
 ---
 
