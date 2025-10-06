@@ -12,6 +12,11 @@ The idea is simple but powerful:
 
 This simulates how modern AI-powered applications retrieve and reason over private data, rather than relying only on the model’s memory.
 
+
+## 🏗️ Architecture Overview
+
+![Architecture](https://github.com/praveenreddy82472/image-captioning-API-with-GCP/blob/main/image_cap_api.png)
+
 ---
 
 ## 🏗️ End-to-End Architecture
